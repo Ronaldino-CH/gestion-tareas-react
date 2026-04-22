@@ -49,7 +49,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Administrador de tareas</h1>
+      <h1>Administrador de tareas </h1>
       <TaskForm onAddTask={addTask} />
       <TaskFilter filter={filter} setFilter={setFilter} />
       <TaskList tasks={filteredTasks} onToggle={toggleTask} onDelete={deleteTask} />
