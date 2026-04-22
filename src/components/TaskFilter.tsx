@@ -13,7 +13,7 @@ function TaskFilter({ filter, setFilter }: TaskFilterProps) {
         className={filter === "todas" ? "active" : ""}
         onClick={() => setFilter("todas")}
       >
-        Todas
+        Todas..
       </button>
 
       <button
