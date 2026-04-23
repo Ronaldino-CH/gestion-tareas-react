@@ -22,7 +22,7 @@ function TaskForm({ onAddTask }: TaskFormProps) {
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
-      <button type="submit">Agregar</button>
+      <button type="submit">Agregar..</button>
     </form>
   );
 }
